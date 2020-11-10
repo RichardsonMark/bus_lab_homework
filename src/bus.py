@@ -6,9 +6,12 @@ class Bus:
     def __init__(self, route, destination):
         self.route_number = route
         self.destination = destination
+        self.passengers = []
 
-
-# write a method to get the test count passing
+# the bus goes Brum brum! (drives)
     def drive(self):
         return "Brum brum"
 
+# return a count of the bus passengers
+    def passenger_count(self):
+        return len(self.passengers)
