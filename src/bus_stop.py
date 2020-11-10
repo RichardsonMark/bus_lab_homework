@@ -14,3 +14,8 @@ class BusStop:
 # add a person to the queue
     def add_to_queue(self, person):
         self.queue.append(person)
+
+
+# clear / empty the queue
+    def clear(self):
+        self.queue.clear()
