@@ -7,17 +7,17 @@ class TestBus(unittest.TestCase):
     def setUp(self):
         self.bus = Bus(22, "Ocean Terminal")
 
-    @unittest.skip("Delete this line to run the test")
+#    @unittest.skip("Delete this line to run the test")
     def test_has_route_number(self):
         self.assertEqual(22, self.bus.route_number)
 
 
-    @unittest.skip("Delete this line to run the test")
+#    @unittest.skip("Delete this line to run the test")
     def test_has_destination(self):
         self.assertEqual("Ocean Terminal", self.bus.destination)
 
 
-    @unittest.skip("Delete this line to run the test")
+#    @unittest.skip("Delete this line to run the test")
     def test_can_drive(self):
         self.assertEqual("Brum brum", self.bus.drive())
 
